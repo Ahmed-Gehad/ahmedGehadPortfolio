@@ -12,7 +12,7 @@ import me from '../imges/me.jpg'
 
 const Landing = () => {
     return (
-        <div className='Landing '>
+        <div className='Landing px-4'>
             <Container>
                 <Row className='d-flex  align-items-center pt-5'>
                     <Col lg={6} className='mt-5 pt-5'>
@@ -46,7 +46,7 @@ const Landing = () => {
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5'>
-                        <img src={me} alt="" className='img ms-5 rounded-5' />
+                        <img src={me} alt="" className='img ms-3 rounded-5' />
                     </Col>
                 </Row>
             </Container>
