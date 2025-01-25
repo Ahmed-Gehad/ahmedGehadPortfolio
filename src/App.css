@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+:root{
+    /* colors  */
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: var(--color-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.motionBtn {
+    background: none;
+    border: none;
+    outline: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* start navBar */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-toggler {
+    background-color: white;
+    border: none;
   }
+
+ .link:hover{
+    color: var(--color-primary) !important;
 }
+
+/* end navBar */
+
+/* Start Landing */
+
+/* .Landing{
+background-color: rgba(25, 55, 109, 0.9);
+height: 100vh;
+filter: blur(100px);
+z-index: 1;
+} */
+ .Landing{
+    
+     color: var(--color-text);
+     background-color: rgba(25, 55, 109, 0.9);
+     
+ }
+.Landing button{
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: 40px;
+   
+}
+
+
+.Landing .img{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 20px); }
+    100% { transform: translate(0, 0px); }
+}
+
+/* end Landing */
