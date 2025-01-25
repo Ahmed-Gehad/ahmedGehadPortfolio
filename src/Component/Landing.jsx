@@ -24,7 +24,10 @@ const Landing = () => {
                                     // Same substring at the start will only be typed out once, initially
                                   
                                     'Front-end Developer',
-                                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                    1000, 
+                                    'Front-end Disigner',
+                                    1000,
+                                   
                                 
                                 ]}
                                 wrapper="span"
