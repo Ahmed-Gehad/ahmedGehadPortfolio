@@ -45,11 +45,11 @@ const Experience = () => {
                     <Col lg={6} className=''>
                         <div className='experience-info my-5 rounded-4  d-flex'>
                             <div >
-                                <img src={goCode} alt="logo" className='w-75 p-4 rounded-5' />
+                                <img src={goCode} alt="logo" className='w-75 my-4 rounded-5 ms-3' />
                             </div>
                             <div className='pt-4'>
-                                <h3>CEO Go Code</h3>
-                                <p className='lead'>
+                                <h3 className='fw-bold fs-2'>CEO Go Code</h3>
+                                <p className='lead mt-3'>
                                     for Web Site Projects
                                 </p>
                                 <p className='fs-5'>2019 - 2024</p>
