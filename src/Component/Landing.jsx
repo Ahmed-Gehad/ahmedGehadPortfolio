@@ -40,8 +40,8 @@ const Landing = () => {
                         </p>
 
                         <motion.button
-                            whileTap={{ scale: 0.65 }} className='motionBtn '>
-                            <Button to="ContactPage" className='fs-3' >Contact Me</Button>
+                            whileTap={{ scale: 0.65 }} className='motionBtn'>
+                            <Button to="ContactPage" className='fs-3 ' >Contact Me</Button>
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5 text-center'>
