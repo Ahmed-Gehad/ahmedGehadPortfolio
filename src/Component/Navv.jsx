@@ -4,11 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import logo from '../imges/logo.jpg'
-import { Link } from 'react-router';
+
 
 // import Button
 import Button from 'react-bootstrap/Button';
 import { motion } from 'framer-motion';
+
+import ahmedGehad from '../Component/Ahmed Gehad Afify.pdf'
 
 function Navv() {
     return (
@@ -36,7 +38,9 @@ function Navv() {
                        
                             <motion.button
                                 whileTap={{ scale: 0.65 }} className='motionBtn '>
-                                <Button variant="success" to="ContactPage" className='ms-5'>Downlod CV</Button>
+                                <Button variant="success" to="ContactPage" className='ms-5' >
+                                    <a href={ahmedGehad} download='ahmedGehad' >Download CV</a>
+                                    </Button>
                             </motion.button>
                         
 
