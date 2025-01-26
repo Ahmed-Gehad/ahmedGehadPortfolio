@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div className='about text-white my-5 px-4' id='about'>
+        <div className='about text-white my-5 px-4' id='About'>
 
             <Container>
                 <Row>
@@ -37,7 +37,7 @@ const About = () => {
                             <h1 className='fw-bold py-3'>
                                 I'm a Passionate Web Developer
                             </h1>
-                            <p className='lead w-75'>
+                            <p className='lead fs-4 w-75'>
                                 I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.
                             </p>
                         </motion.div>

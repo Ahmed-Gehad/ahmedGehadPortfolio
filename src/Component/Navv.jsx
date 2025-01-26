@@ -28,7 +28,7 @@ function Navv() {
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                         <Nav className="align-items-center">
                             <Nav.Link href="#Home" className='link me-3 text-white'>Home</Nav.Link>
-                            <Nav.Link href="#about" className='link me-3 text-white'>About</Nav.Link>
+                            <Nav.Link href="#About" className='link me-3 text-white'>About</Nav.Link>
                             <Nav.Link href="#Experience" className='link me-3 text-white'>Experience</Nav.Link>
                             <Nav.Link href="#Projects" className='link me-3 text-white'>Projects</Nav.Link>
                             <Nav.Link href="#Contact" className='link me-3 text-white'>Contact</Nav.Link>

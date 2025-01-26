@@ -12,7 +12,7 @@ import me from '../imges/me.jpg'
 
 const Landing = () => {
     return (
-        <div className='Landing px-4' id='Home'>
+        <div className='Landing px-4 text-white' id='Home'>
             <Container>
                 <Row className='d-flex  align-items-center pt-5'>
                     <Col lg={6} className='mt-5 pt-5'>
@@ -32,7 +32,7 @@ const Landing = () => {
                                 repeat={Infinity}
                             />
                         </h2>
-                        <p className='lead'>with 2+ years of experience
+                        <p className='lead fs-2'>with 2+ years of experience
                             <br />
                             using React and Node.js.
                             <br />
@@ -41,7 +41,7 @@ const Landing = () => {
 
                         <motion.button
                             whileTap={{ scale: 0.65 }} className='motionBtn '>
-                            <Button to="ContactPage" >Contact Me</Button>
+                            <Button to="ContactPage" className='fs-3' >Contact Me</Button>
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5'>

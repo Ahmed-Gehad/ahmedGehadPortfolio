@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: "Caveat", serif;
 }
 :root{
     /* colors  */
@@ -27,14 +27,14 @@ body{
     width: 70px;
     height: 3px;
     background-color: var(--color-primary);
-    
+}
+.darkline{
+    width: 70px;
+    height: 3px;
+    background-color: var(--color-bg);
 }
 
-
-
-
 /* start navBar */
-
   .navBar {
     position: fixed;
     top: 0;
@@ -45,33 +45,21 @@ body{
     background-color: white;
     border: none;
   }
-
  .link:hover{
     color: var(--color-primary) !important;
 }
-
 /* end navBar */
 
 /* Start Landing */
-
-
  .Landing{
-    
-     color: var(--color-text);
      background-color: rgba(25, 55, 109, 0.9);
-     
  }
 .Landing button{
     background-color: var(--color-primary);
     color: var(--color-text);
     border: none;
     border-radius: 40px;
-   
 }
-
-
-
-
 /* end Landing */
 
 /* Start about  */
@@ -92,5 +80,12 @@ body{
 .about img:hover{
     filter: brightness(.9);
 }
-
 /* end about  */
+
+/* Start Experience  */
+
+.experience{
+    background-color: rgba(25, 55, 109, 0.9);
+}
+
+/* end Experience  */
