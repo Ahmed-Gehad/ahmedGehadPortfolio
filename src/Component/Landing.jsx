@@ -44,7 +44,7 @@ const Landing = () => {
                             <Button to="ContactPage" className='fs-3' >Contact Me</Button>
                         </motion.button>
                     </Col>
-                    <Col lg={6} className=' py-5'>
+                    <Col lg={6} className=' py-5 text-center'>
                         <img src={me} alt="" className='img  rounded-5 w-50  m-3' />
                     </Col>
                 </Row>
