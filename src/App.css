@@ -33,6 +33,9 @@ body{
     height: 3px;
     background-color: var(--color-bg);
 }
+.text-orange{
+    color: orangered;
+}
 
 /* start navBar */
   .navBar {
@@ -123,6 +126,7 @@ color: rgb(86, 193, 235);
 }
 
 .experience .experience-info{
-    background-color: var(--color-bg);
+    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent );
+   
 }
 /* end Experience  */
