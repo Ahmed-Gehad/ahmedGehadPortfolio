@@ -1,8 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-
-
-
+import goCode from "../imges/code.jpg"
 
 const Experience = () => {
     return (
@@ -13,7 +11,7 @@ const Experience = () => {
                         <h1 className='fw-bold mt-5'>Experience</h1>
                         <div className="darkline my-4 mx-auto"></div>
                     </Col>
-                    <Col lg={5} >
+                    <Col lg={6} >
                         <div className='d-flex  text-center align-items-center justify-content-between mx-5 my-4' >
                             <div className='me-4 html'>
                                 <i class="fa-brands fa-html5 fs-1 mb-2"></i>
@@ -28,7 +26,6 @@ const Experience = () => {
                                 <p>REACT</p>
                             </div>
                         </div>
-
                         <div className='d-flex  text-center align-items-center justify-content-between mx-5 my-3'>
                             <div className='me-3 github'>
                                 <i class="fa-brands fa-github fs-1 mb-2"></i>
@@ -42,11 +39,22 @@ const Experience = () => {
                             <i class="fa-brands fa-figma fs-1 mb-2"></i>
                                 <p>Figma</p>
                             </div>
-
                         </div>
 
                     </Col>
                     <Col lg={6} className=''>
+                        <div className='experience-info my-5 rounded-4  d-flex'>
+                            <div >
+                                <img src={goCode} alt="logo" className='w-75 p-4 rounded-5' />
+                            </div>
+                            <div className='pt-4'>
+                                <h3>CEO Go Code</h3>
+                                <p className='lead'>
+                                    for Web Site Projects
+                                </p>
+                                <p className='fs-5'>2019 - 2024</p>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
