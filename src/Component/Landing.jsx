@@ -12,7 +12,7 @@ import me from '../imges/me.jpg'
 
 const Landing = () => {
     return (
-        <div className='Landing px-4'>
+        <div className='Landing px-4' id='Home'>
             <Container>
                 <Row className='d-flex  align-items-center pt-5'>
                     <Col lg={6} className='mt-5 pt-5'>
@@ -21,14 +21,10 @@ const Landing = () => {
                         <h2 className='py-3'>
                             <TypeAnimation
                                 sequence={[
-                                    // Same substring at the start will only be typed out once, initially
-                                  
                                     'Front-end Developer',
                                     1000, 
                                     'Front-end Disigner',
                                     1000,
-                                   
-                                
                                 ]}
                                 wrapper="span"
                                 speed={30}
@@ -49,7 +45,7 @@ const Landing = () => {
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5'>
-                        <img src={me} alt="" className='img  rounded-5' />
+                        <img src={me} alt="" className='img  rounded-5 w-50  m-3' />
                     </Col>
                 </Row>
             </Container>
