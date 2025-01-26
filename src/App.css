@@ -132,6 +132,6 @@ color: rgb(86, 193, 235);
 }
 
 .experience .experience-info{
-    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent );  
+    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 30%, transparent );  
 }
 /* end Experience  */
