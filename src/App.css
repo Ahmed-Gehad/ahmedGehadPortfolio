@@ -11,6 +11,7 @@
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;
+  --scond-color: #ff511a;
 }
 
 body{
@@ -37,7 +38,7 @@ a{
     background-color: var(--color-bg);
 }
 .text-orange{
-    color: orangered;
+    color: var(--scond-color);
 }
 
 /* start navBar */
