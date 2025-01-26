@@ -15,7 +15,7 @@ import ahmedGehad from '../Component/Ahmed Gehad Afify.pdf'
 function Navv() {
     return (
 
-        <div className='navBar '>
+        <div className='navBar'>
             <Navbar expand="lg" className="">
                 <Container>
                     <Navbar.Brand href="#home"> <img
@@ -26,8 +26,8 @@ function Navv() {
                         alt="Ahmed gehad"
                     /></Navbar.Brand>
 
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav " />
+                    <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end '>
                         <Nav className="align-items-center">
                             <Nav.Link href="#Home" className='link me-3 text-white'>Home</Nav.Link>
                             <Nav.Link href="#About" className='link me-3 text-white'>About</Nav.Link>

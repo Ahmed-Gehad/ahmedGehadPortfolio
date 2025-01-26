@@ -45,7 +45,7 @@ const Landing = () => {
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5 text-center'>
-                        <img src={me} alt="" className='img  rounded-5 w-50  m-3' />
+                        <img src={me} alt="" className='img  rounded-5 w-50  my-4' />
                     </Col>
                 </Row>
             </Container>
