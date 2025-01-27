@@ -1,9 +1,10 @@
 import React from 'react'
+import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     return (
-        <div>
+        <Col lg={4} sm={12} xs={12}>
             <div
                 className='rounded group '
                 style={{
@@ -29,7 +30,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
                 <h5 className='fw-bold fs-3 mb-3'>{title}</h5>
                 <p className='lead'>{description}</p>
             </div>
-        </div>
+        </Col>
     )
 }
 

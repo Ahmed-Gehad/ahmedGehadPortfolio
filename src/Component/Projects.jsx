@@ -165,8 +165,10 @@ const Projects = () => {
                   gitUrl={project.gitUrl}
                   previewUrl={project.previewUrl}
                 />
+               
               ))}
             </div>
+          
           </Col>
         </Row>
       </Container>
