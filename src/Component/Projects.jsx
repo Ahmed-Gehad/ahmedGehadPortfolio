@@ -153,7 +153,7 @@ const Projects = () => {
                isSelected={tag === "React"}
             />
           </Col>
-          <Col >
+          <Col lg={3} xs={12} className='my-4'>
             <div className='d-flex justify-content-between '>
               {filteredProjects.map((project) => (
                 <ProjectCard
