@@ -47,7 +47,7 @@ a{
     width: 100%;
     z-index: 100;
     background-color: var(--color-bg);
-    
+
   }
   .navbar-toggler {
     background-color: white;
@@ -132,6 +132,11 @@ color: rgb(86, 193, 235);
 }
 
 .experience .experience-info{
-    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent );  
+    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent ); 
+    transition: all 1s ease !important; 
 }
+.experience .experience-info:hover{
+    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 100%, transparent );  
+}
+
 /* end Experience  */
