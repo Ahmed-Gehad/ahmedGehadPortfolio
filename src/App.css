@@ -11,6 +11,7 @@
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;
+  --scond-color: #ff511a;
 }
 
 body{
@@ -37,7 +38,7 @@ a{
     background-color: var(--color-bg);
 }
 .text-orange{
-    color: orangered;
+    color: var(--scond-color);
 }
 
 /* start navBar */
@@ -133,7 +134,6 @@ color: rgb(86, 193, 235);
 
 .experience .experience-info{
     background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent ); 
-    transition: all 1s ease !important; 
 }
 .experience .experience-info:hover{
     background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 100%, transparent );  
