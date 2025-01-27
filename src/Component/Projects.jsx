@@ -100,7 +100,7 @@ const Projects = () => {
                   title={project.title}
                   description={project.description}
                   imgUrl={project.image}
-                  tags={project.tag}
+                  tags={project}
                 />
               ))}
             </div>
