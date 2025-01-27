@@ -137,15 +137,15 @@ const Projects = () => {
                name="HTML,CSS"
                isSelected={tag === "HTML,CSS"}
             />
+             <ProjectTag
+               onClick={handleTagChange} 
+               name="Bootstrap"
+               isSelected={tag === "Bootstrap"}
+            />
             <ProjectTag
                onClick={handleTagChange} 
                name="JS"
                isSelected={tag === "JS"}
-            />
-            <ProjectTag
-               onClick={handleTagChange} 
-               name="Bootstrap"
-               isSelected={tag === "Bootstrap"}
             />
             <ProjectTag
                onClick={handleTagChange} 
