@@ -133,10 +133,7 @@ color: rgb(86, 193, 235);
 }
 
 .experience .experience-info{
-    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent ); 
-}
-.experience .experience-info:hover{
-    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 100%, transparent );  
+    background: linear-gradient(to top,  var(--color-bg) 0%, var(--color-bg) 40%, transparent );  
 }
 
 /* end Experience  */
