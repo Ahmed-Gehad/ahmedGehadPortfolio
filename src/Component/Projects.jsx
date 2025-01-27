@@ -126,7 +126,7 @@ const Projects = () => {
             <h1 className='text-orange fw-bold'>My Projects</h1>
             <div className="line my-4 mx-auto"></div>
           </Col>
-          <Col lg={12} className='text-center my-4'>
+          <Col lg={12} xs={12} className='text-center my-4'>
             <ProjectTag
                onClick={handleTagChange} 
                name="All"
