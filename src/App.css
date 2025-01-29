@@ -51,6 +51,9 @@ a{
     background-color: var(--color-bg);
 
   }
+  .navBar img{
+    background-color: none;
+  }
   .navbar-toggler {
     background-color: white;
     border: none;

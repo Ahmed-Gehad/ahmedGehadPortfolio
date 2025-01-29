@@ -18,9 +18,11 @@ function Navv() {
         <div className='navBar px-4'>
             <Navbar expand="lg" className="">
                 <Container>
-                    <Navbar.Brand href="#home"> <img
+                    <Navbar.Brand href="#home">
+                        
+                         <img
                         src={logo}
-                       
+                      
                         className="d-inline-block align-top rounded-circle w-50 "
                         alt="Ahmed gehad"
                     /></Navbar.Brand>
