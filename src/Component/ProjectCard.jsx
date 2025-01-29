@@ -1,36 +1,26 @@
 import React from 'react'
-import { Col } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+const ProjectCard = (project) => {
     return (
-        <Col lg={4} sm={12} xs={12}>
-            <div
-                className='rounded group '
-                style={{
-                    background: `url(${imgUrl})`,
-                    backgraoundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    position: 'relative',
-                }}
-            >
-                <div className='overlay grpup-hover:opacity-0
-                transition-all duration-30     '
-                >
-                    <Link to={gitUrl} hreaf target='_blank'>
-                    <i class="fa-solid fa-code pe-3"></i>
+        <div >
+            <div className='group' >
+                <img src={project.imgUrl} alt={project.title} className='rounded-3 w-100'   />
+                <div className='overlay'>
+                    <Link to={project.gitUrl} target='_blank'>
+                    <i class="fa-solid fa-code pe-5 fs-4" title="hover text"></i>
                     </Link>
-                    <Link to={previewUrl} target='_blank'>
-                    <i class="fa-regular fa-eye ps-3"></i>
+                    <Link to={project.previewUrl} target='_blank'>
+                    <i class="fa-regular fa-eye fs-4"></i>
                     </Link>
                 </div>
             </div>
-            <div className='text-white py-6 px-4'>
-                <h5 className='fw-bold fs-3 mb-3'>{title}</h5>
-                <p className='lead'>{description}</p>
+            <div className='text-white  mt-3'>
+                <h5 className='fw-bold fs-3 mb-3 text-orange'>{project.title}</h5>
+                <p className='lead w-100'>{project.description}</p>
             </div>
-        </Col>
+        </div>
     )
 }
 
