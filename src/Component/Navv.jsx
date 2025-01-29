@@ -15,14 +15,13 @@ import ahmedGehad from '../Component/Ahmed Gehad Afify.pdf'
 function Navv() {
     return (
 
-        <div className='navBar'>
+        <div className='navBar px-4'>
             <Navbar expand="lg" className="">
                 <Container>
                     <Navbar.Brand href="#home"> <img
                         src={logo}
-                        width="100"
-                        height="80"
-                        className="d-inline-block align-top rounded-circle "
+                       
+                        className="d-inline-block align-top rounded-circle w-50 "
                         alt="Ahmed gehad"
                     /></Navbar.Brand>
 
