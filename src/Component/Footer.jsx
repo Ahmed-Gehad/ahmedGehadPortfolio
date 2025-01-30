@@ -7,10 +7,10 @@ const Footer = () => {
             <Container>
                 <Row className='py-3 '>
                     <Col lg={12} sm={12} xs={12} className='d-flex justify-content-between align-items-center'>
-                        <div className='copyright fs-5 pt-3'>
-                            <p >
+                        <div className='copyright  pt-3'>
+                            <p  className='fs-5'>
                                 &copy; 2024 copyright:
-                                <span className='text-orange fw-bold ps-2'>Ahmed Gehad </span>
+                                <span className='text-orange fw-bold ps-1'>Ahmed Gehad </span>
                             </p>
                         </div>
                         <div className='social-media    '>
