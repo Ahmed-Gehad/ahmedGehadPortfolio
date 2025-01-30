@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='text-white '>
             <Container>
                 <Row className='py-3 '>
-                    <Col lg={12} sm={12} xs={12} className='d-flex'>
+                    <Col lg={12} sm={12} xs={12} className='d-flex justify-content-between align-items-center'>
                         <div className='copyright fs-5 pt-3'>
                             <p >
                                 &copy; 2024 copyright:
