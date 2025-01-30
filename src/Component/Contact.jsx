@@ -14,7 +14,7 @@ const Contact = () => {
                         <div className="darkline my-4 mx-auto"></div>
                     </Col>
 
-                    <Col lg={6} className='pt-5'>
+                    <Col lg={6} className='pt-5 ps-2'>
                     <motion.div
                             className=""
                             initial={{
