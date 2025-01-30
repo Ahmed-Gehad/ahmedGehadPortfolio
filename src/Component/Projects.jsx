@@ -170,109 +170,28 @@ const Projects = () => {
             />
           </Col> */}
 
-
-
-
-          <Col lg={4} xs={12} className='my-4'>
+<Col lg={4} md={6} sm={6} xs={12} className='my-4'>
             <div className=''>
             {/* {filteredProjects.map((project) => ( */}
               <ProjectCard
-                title='Khamsat'
-                description='khamsat is a website for selling and buying books online'
-                imgUrl={khamsat}
-                gitUrl='https://github.com/Ahmed-Gehad/khamsat-app'
-                previewUrl='https://khamsat-app.vercel.app/'
+                title='Portfolio'
+                description='portfolio is a website for show my projects'
+                imgUrl={portfolio}
+                gitUrl='https://github.com/Ahmed-Gehad/ahmedGehadPortfolio'
+                previewUrl='https://ahmed-gehad-portfolio-3rvd.vercel.app/'
               />
             {/* ))} */}
             </div>
           </Col>
-          <Col lg={4} xs={12} className='my-4'>
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
             <div className=''>
             {/* {filteredProjects.map((project) => ( */}
               <ProjectCard
-              title='Bondi'
-              description= "bondi is a website for selling and buying games online"
-              imgUrl={bondi}
-              gitUrl="https://github.com/Ahmed-Gehad/bondi"
-              previewUrl="https://ahmed-gehad.github.io/bondi/"
-                />
-              {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Restaurant'
-                description='restaurant is a website for selling and buying food online'
-                imgUrl={restaurant}
-                gitUrl='https://github.com/Ahmed-Gehad/restaurant'
-                previewUrl='https://restaurant-ashy-iota.vercel.app/'
-              />
-            {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Criativo'
-                description='portfolio is a website for marketing and selling online'
-                imgUrl={criativo}
-                gitUrl='https://github.com/Ahmed-Gehad/criativo-app'
-                previewUrl='https://criativo-app-delta.vercel.app/'
-              />
-            {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Botiga'
-                description='portfolio is a website for buying and selling makeup online'
-                imgUrl={botiga}
-                gitUrl='https://github.com/Ahmed-Gehad/Botiga'
-                previewUrl='https://botiga-dun.vercel.app'
-              />
-            {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Rosebud'
-                description='portfolio is a website for buying and selling flowers online'
-                imgUrl={rosebud}
-                gitUrl='https://github.com/Ahmed-Gehad/rosebud'
-                previewUrl='https://rosebud-rose.vercel.app/'
-              />
-            {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Time Zone'
-                description='portfolio is a website for buying and selling watch online'
-                imgUrl={timeZone}
-                gitUrl='https://github.com/Ahmed-Gehad/Time-Zone'
-                previewUrl='https://time-zone-lime.vercel.app'
-              />
-            {/* ))} */}
-            </div>
-          </Col>
-          <Col lg={4} xs={12} className='my-4'>
-            <div className=''>
-            {/* {filteredProjects.map((project) => ( */}
-              <ProjectCard
-                title='Stopwatch'
-                description='stopwatch is a website for stopwatch app'
-                imgUrl={stopwatch}
-                gitUrl='https://github.com/Ahmed-Gehad/stopwatch'
-                previewUrl='https://stopwatch-rust-delta.vercel.app'
+                title='New Home'
+                description='new-home is a website for buying and selling Bulding online'
+                imgUrl={newHome}
+                gitUrl='https://github.com/Ahmed-Gehad/new-home'
+                previewUrl='https://new-home-e7gk.vercel.app/'
               />
             {/* ))} */}
             </div>
@@ -290,32 +209,137 @@ const Projects = () => {
             {/* ))} */}
             </div>
           </Col>
-          <Col lg={4} xs={12} className='my-4'>
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
             <div className=''>
             {/* {filteredProjects.map((project) => ( */}
               <ProjectCard
-                title='New Home'
-                description='new-home is a website for buying and selling Bulding online'
-                imgUrl={newHome}
-                gitUrl='https://github.com/Ahmed-Gehad/new-home'
-                previewUrl='https://new-home-e7gk.vercel.app/'
+                title='Stopwatch'
+                description='stopwatch is a website for stopwatch app'
+                imgUrl={stopwatch}
+                gitUrl='https://github.com/Ahmed-Gehad/stopwatch'
+                previewUrl='https://stopwatch-rust-delta.vercel.app'
               />
             {/* ))} */}
             </div>
           </Col>
-          <Col lg={4} xs={12} className='my-4'>
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
             <div className=''>
             {/* {filteredProjects.map((project) => ( */}
               <ProjectCard
-                title='Portfolio'
-                description='portfolio is a website for show my projects'
-                imgUrl={portfolio}
-                gitUrl='https://github.com/Ahmed-Gehad/ahmedGehadPortfolio'
-                previewUrl='https://ahmed-gehad-portfolio-3rvd.vercel.app/'
+                title='Time Zone'
+                description='portfolio is a website for buying and selling watch online'
+                imgUrl={timeZone}
+                gitUrl='https://github.com/Ahmed-Gehad/Time-Zone'
+                previewUrl='https://time-zone-lime.vercel.app'
               />
             {/* ))} */}
             </div>
           </Col>
+
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+                title='Rosebud'
+                description='portfolio is a website for buying and selling flowers online'
+                imgUrl={rosebud}
+                gitUrl='https://github.com/Ahmed-Gehad/rosebud'
+                previewUrl='https://rosebud-rose.vercel.app/'
+              />
+            {/* ))} */}
+            </div>
+          </Col>
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+                title='Botiga'
+                description='portfolio is a website for buying and selling makeup online'
+                imgUrl={botiga}
+                gitUrl='https://github.com/Ahmed-Gehad/Botiga'
+                previewUrl='https://botiga-dun.vercel.app'
+              />
+            {/* ))} */}
+            </div>
+          </Col>
+        
+
+
+
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+              title='Bondi'
+              description= "bondi is a website for selling and buying games online"
+              imgUrl={bondi}
+              gitUrl="https://github.com/Ahmed-Gehad/bondi"
+              previewUrl="https://ahmed-gehad.github.io/bondi/"
+                />
+              {/* ))} */}
+            </div>
+          </Col>
+
+
+
+
+
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+                title='Restaurant'
+                description='restaurant is a website for selling and buying food online'
+                imgUrl={restaurant}
+                gitUrl='https://github.com/Ahmed-Gehad/restaurant'
+                previewUrl='https://restaurant-ashy-iota.vercel.app/'
+              />
+            {/* ))} */}
+            </div>
+          </Col>
+         
+
+  <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+                title='Criativo'
+                description='portfolio is a website for marketing and selling online'
+                imgUrl={criativo}
+                gitUrl='https://github.com/Ahmed-Gehad/criativo-app'
+                previewUrl='https://criativo-app-delta.vercel.app/'
+              />
+            {/* ))} */}
+            </div>
+          </Col>
+
+
+
+
+
+
+          <Col lg={4} md={6} sm={6} xs={12} className='my-4'>
+            <div className=''>
+            {/* {filteredProjects.map((project) => ( */}
+              <ProjectCard
+                title='Khamsat'
+                description='khamsat is a website for selling and buying books online'
+                imgUrl={khamsat}
+                gitUrl='https://github.com/Ahmed-Gehad/khamsat-app'
+                previewUrl='https://khamsat-app.vercel.app/'
+              />
+            {/* ))} */}
+            </div>
+          </Col>
+
+ 
+
+
+ 
+ 
+
+
+         
         </Row>
       </Container>
     </div>

@@ -41,7 +41,7 @@ const Landing = () => {
 
                         <motion.button
                             whileTap={{ scale: 0.65 }} className='motionBtn'>
-                            <Button to="ContactPage" className='fs-3 ' >Contact Me</Button>
+                            <Button href='#Contact' className=' fs-3 btn btn-success' >Contact Me</Button>
                         </motion.button>
                     </Col>
                     <Col lg={6} className=' py-5 text-center'>

@@ -6,7 +6,7 @@ const ProjectCard = (project) => {
     return (
         <div >
             <div className='group' >
-                <img src={project.imgUrl} alt={project.title} className='rounded-3 w-100'   />
+                <img src={project.imgUrl} alt={project.title} className='rounded-4 w-100'   />
                 <div className='overlay'>
                     <Link to={project.gitUrl} target='_blank'>
                     <i class="fa-solid fa-code pe-5 fs-4" title="hover text"></i>

@@ -7,7 +7,7 @@
 :root{
     /* colors  */
     --color-text: #fff;
-    --color-primary: #576cbc;
+    --color-primary:  #19376d;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;
@@ -66,14 +66,9 @@ a{
 
 /* Start Landing */
  .Landing{
-     background-color: rgba(25, 55, 109, 0.9);
+     background-color: var(--color-primary);
  }
-.Landing button{
-    background-color: var(--color-primary);
-    color: var(--color-text);
-    border: none;
-    border-radius: 40px;
-}
+
 /* end Landing */
 
 /* Start about  */
@@ -99,7 +94,7 @@ a{
 /* Start Experience  */
 
 .experience{
-    background-color: rgba(25, 55, 109, 0.9);
+    background-color: var(--color-primary);
     
 }
 .experience i{
@@ -185,3 +180,16 @@ color: rgb(86, 193, 235);
 
 
 /* end project   */
+
+
+.Contact{
+    background-color: var(--color-primary);
+}
+
+ .InfoContact .info{
+    transition: all 0.5s ease-in-out;
+ }
+ .InfoContact .info:hover{
+    color:var(--scond-color);
+    cursor: pointer;
+ }
