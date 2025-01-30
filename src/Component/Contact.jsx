@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import InfoContact from './InfoContact'
 import MassageContact from './MassageContact'
+import { motion } from "framer-motion";
 
 const Contact = () => {
     return (
@@ -14,11 +15,45 @@ const Contact = () => {
                     </Col>
 
                     <Col lg={6} className='pt-5'>
+                    <motion.div
+                            className=""
+                            initial={{
+                                opacity: 0,
+                                // if odd index card,slide from right instead of left
+                                x: 1 % 2 === 0 ? 50 : -50
+                            }}
+                            whileInView={{
+                                opacity: 1,
+                                x: 0, // Slide in to its original position
+                                transition: {
+                                    duration: 4 // Animation duration
+                                }
+                            }}
+                            viewport={{ once: true }}
+                        >
                         <InfoContact />
+                        </motion.div>
                     </Col>
 
                     <Col lg={6} className='pt-5'>
+                    <motion.div
+                            className=""
+                            initial={{
+                                opacity: 0,
+                                // if odd index card,slide from right instead of left
+                                x: 2 % 2 === 0 ? 50 : -50
+                            }}
+                            whileInView={{
+                                opacity: 1,
+                                x: 0, // Slide in to its original position
+                                transition: {
+                                    duration: 4 // Animation duration
+                                }
+                            }}
+                            viewport={{ once: true }}
+                        >
                         <MassageContact />
+                        </motion.div>
                     </Col>
 
                 </Row>
