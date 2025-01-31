@@ -34,7 +34,7 @@ const Landing = () => {
                         </h2>
                         <p className='lead fs-2'>with 2+ years of experience
                             <br />
-                            using React and Node.js.
+                            using React.
                             <br />
                             Reach out if you'd like to learn more!
                         </p>
